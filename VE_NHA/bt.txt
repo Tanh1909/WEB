@@ -1,0 +1,15 @@
+SỰ KHÁC NHAU GIỮA VAR, LET, CONST:
+-	Khai báo var được định phạm vi toàn cục (global) hay hàm (function) trong khi let và const được định phạm vi là khối mã (block)
+-	Biến var có thể được cập nhật và khai báo lại trong phạm vi tồn tại; biến let có thể được cập nhật nhưng không thể khai báo lại; biến const không thể cập nhật nhưng không thể khai báo lại.
+-	Khai báo của var, let, const đều được dịch chuyển lên đầu của phạm vi. Nhưng trong khi biến var được khởi gán giá trị với undefined, biến let và const không được khởi gán giá trị.
+-	Trong khi var và let có thể được khai báo không khởi gán giá trị, const phải khởi gán giá trị khi khai báo.
+
+
+
+BiỂU THỨC ĐIỀU KIỆN if - else
+                     if(ĐK)
+                     { lệnh1 }
+                     else 
+                     { lệnh2 }
+Nếu điều kiện đúng thực hiện lệnh 1 và sai thì thực hiện lệnh 2
+
